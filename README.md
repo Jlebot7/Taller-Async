@@ -18,3 +18,18 @@
          - Fin del programa
 
 - Resultado: Adjunto en Evidences/P2.png
+
+- No coincidio prediccion con resultado
+
+- Esto sucede debido al timeout
+
+**Parte 3**
+
+¿Cuál terminó primero?
+- Audio finalizado
+
+¿Cuál terminó último?
+- Datos del sensor listos
+
+¿Por qué el orden de finalización es diferente al orden de ejecución?
+- Por el timeout
