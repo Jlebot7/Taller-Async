@@ -33,3 +33,24 @@
 
 ¿Por qué el orden de finalización es diferente al orden de ejecución?
 - Por el timeout
+
+**Parte 4**
+
+- La invocacion de la funcion (linea 10) envia el nombre del archivo para que la consola lo muestre en la linea formateada
+- Se tiene un delay de 5 segundos hasta que la descarga finaliza
+- La ultima linea muestra que el archivo esta listo para ser abierto
+
+**Parte 5**
+
+Describe el problema visual que presenta el código.
+- Un claro ejemplo de callback hell
+
+Explica qué es el Callback Hell.
+- El callback hell es un problema que ocurre al tener una funcion que se anida y recibe resultado de otra mas arriba en un bucle 
+
+¿Por qué dificulta el mantenimiento de aplicaciones grandes?
+- Al una funcion depender del resultado de otra y asi sucesivamente 
+
+Investiga y menciona dos alternativas modernas para evitar este problema.
+- Usar async/await para que el codigo parezca mas sincrono
+- Usar funciones con nombre (invocaciones)
